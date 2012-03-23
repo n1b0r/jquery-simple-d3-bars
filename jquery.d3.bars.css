@@ -10,10 +10,6 @@ rect {
 rect:hover {
     fill: #777;
 }
-line {
-    stroke: #ccc;
-    shape-rendering: crispEdges;
-}
 text {
     fill: #666;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -27,8 +23,8 @@ text {
 .axis {
     stroke: #000;
     stroke-width:1;
-    opacity: 0.8;
-        }
+    opacity: 1;
+}
 .reference {
     stroke: #ccc;
     stroke-width:1;
